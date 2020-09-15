@@ -1,0 +1,335 @@
+* {
+     margin: 0;
+     padding: 0;
+
+}
+
+.navbar {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: sticky;
+     top: 0;
+     cursor: pointer;
+}
+
+.nav-list {
+     width: 70%;
+     /* background-color: black; */
+     display: flex;
+     align-items: center;
+}
+
+.nav-list li {
+     list-style: none;
+     padding: 23px 25px;
+}
+
+.nav-list li a{
+     text-decoration: none;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-list li a:hover {
+     color: gray;
+}
+
+.rightNav {
+     width: 30%;
+     /* background-color: deepskyblue; */
+     text-align: right;
+     padding: 0 23px;
+}
+
+.logo {
+     width: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.logo img {
+     width: 33%;
+     border: 3px solid turquoise;
+     border-radius: 50px;
+}
+
+#search {
+     padding: 5px;
+     font-size: 17px;
+     border: 3px solid turquoise;
+     border-radius: 50px;
+}
+
+.background {
+     background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+     background-size: cover;
+     background-blend-mode: darken;
+}
+
+.firstSection {
+     height: 100vh;
+}
+
+.box-main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     max-width: 50%;
+     margin: auto;
+     height: 70%;
+}
+
+.firstHalf {
+     /* width: 80%; */
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.secondHalf {
+     /* width: 20%; */
+}
+
+.secondHalf img {
+     width: 90%;
+     border: 5px solid turquoise;
+     border-radius: 40px;
+     display: block;
+     margin: auto;
+}
+
+.text-big {
+     font-size: 40px;
+     padding: 5px;
+     text-align: left;
+}
+
+.text-small {
+     font-size: 20px;
+     padding: 5px;
+}
+
+.btn {
+     font-size: 20px;
+     padding: 5px 20px;
+     margin: 7px 3;
+     border-radius: 8px;
+     background: none;
+     color: white;
+     cursor: pointer;
+}
+
+.btn-sm {
+     padding: 3px 10px;
+     vertical-align: middle;
+}
+
+.secRight {
+     height: 500px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     max-width: 80%;
+     margin: auto;
+}
+
+.similarText {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.imgFluid {
+     width: 90%;
+     border: 5px solid turquoise;
+     border-radius: 40px;
+     display: block;
+     margin: auto;
+}
+
+.paragraphs {
+     padding: 15px 70px;
+}
+
+.secLeft {
+     height: 500px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     max-width: 80%;
+     margin: auto;
+     flex-direction: row-reverse;
+}
+
+.free-image {
+     width: 70%;
+}
+
+.contact {
+     background-color: beige;
+}
+
+.contact p {
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.contact-p {
+     font-size: 25px;
+     height: 533px 0;
+}
+
+.contact div {
+     max-width: 344px;
+     margin: auto;
+     margin-top: 15px;
+     margin-bottom: 10px;
+     width: 100%;
+}
+
+.contact div input {
+     width: 100%;
+     padding: 5px;
+     font-size: 18px;
+     margin-bottom: 10px;
+     border: 2px solid gray;
+     border-radius: 8px;
+     margin-top: 10px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-align: center;
+}
+
+.submit-btn {
+     color: black;
+     border: 2px solid black;    
+}
+
+#text-area {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     border: 2px solid gray;     
+     border-radius: 8px;
+     font-size: 18px;
+}
+
+.fotter-end {
+     background-color: darkgray;
+     /* padding-top: 25px; */
+     margin: 25px;
+     margin-bottom: 25px;
+     padding-bottom: 25px;
+}
+
+.footer-p {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-align: center;
+     padding: 25px 0;
+     display: flex;
+     color: azure;
+     justify-content: center;
+     align-items: center;
+}
+
+.burger {
+     display: none;
+     position: absolute;
+     cursor: pointer;
+     right: 5%;
+     top: 15px;
+}
+
+.line {
+     width: 33px;
+     background-color: azure;
+     height: 4px;
+     margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px) {
+     .nav-list {
+          flex-direction: column;
+     }
+
+     .navbar {
+          flex-direction: column;
+          transition: all 0.3s ease-out;
+     }
+
+     .rightNav {
+          width: 61%;
+          text-align: center;
+     }
+
+     #search {
+          width: 100%;
+     }
+
+     .burger {
+          display: block; 
+     }
+
+     .h-nav-resp {
+          height: 72px;
+     }
+
+     .v-class-resp {
+          opacity: 0;
+     }
+}
+
+@media only screen and (max-width: 1140px) {
+     .nav-list {
+          flex-direction: column;
+     }
+
+     .navbar {
+          flex-direction: column;
+          transition: all 0.3s ease-out;
+          height: 475px;
+     }
+
+     .rightNav {
+          width: 61%;
+          text-align: center;
+     }
+
+     #search {
+          width: 100%;
+     }
+
+     .burger {
+          display: block; 
+     }
+
+     .h-nav-resp {
+          height: 72px;
+     }
+
+     .v-class-resp {
+          opacity: 0;
+     }
+
+     .box-main {
+          flex-direction: column-reverse;
+     }
+
+     .text-big {
+          text-align: center;
+     }
+
+     .text-small {
+          text-align: center;
+     }
+
+     .buttons {
+          text-align: center;
+     }
+
+     .secondHalf img {
+          /* padding-top: 300px; */
+          margin-top: 250px;
+          /* height: 100%; */
+     }
+}
