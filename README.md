@@ -1,6 +1,6 @@
 # Process Power
 
-[Deployed Version](http://processpowr.surge.sh) 
+[Deployed Version](http://processpower.surge.sh) 
 
 * Process Power is a website made by @samyakbambole for his practice. You can do anything with that website. (According to the MIT License) 
 
